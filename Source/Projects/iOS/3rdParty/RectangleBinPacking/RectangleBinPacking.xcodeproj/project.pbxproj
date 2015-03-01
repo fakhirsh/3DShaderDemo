@@ -1,0 +1,396 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C5474691A40142100D28582 /* libRectangleBinPacking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C54745D1A40142100D28582 /* libRectangleBinPacking.a */; };
+		0CC966111A40461100B090F0 /* GuillotineBinPack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0CC966071A40461100B090F0 /* GuillotineBinPack.cpp */; };
+		0CC966121A40461100B090F0 /* MaxRectsBinPack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0CC966091A40461100B090F0 /* MaxRectsBinPack.cpp */; };
+		0CC966131A40461100B090F0 /* Rect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0CC9660B1A40461100B090F0 /* Rect.cpp */; };
+		0CC966141A40461100B090F0 /* ShelfBinPack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0CC9660D1A40461100B090F0 /* ShelfBinPack.cpp */; };
+		0CC966151A40461100B090F0 /* SkylineBinPack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0CC9660F1A40461100B090F0 /* SkylineBinPack.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0C54746A1A40142100D28582 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0C5474551A40142100D28582 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0C54745C1A40142100D28582;
+			remoteInfo = RectangleBinPacking;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0C54745B1A40142100D28582 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0C54745D1A40142100D28582 /* libRectangleBinPacking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRectangleBinPacking.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C5474681A40142100D28582 /* RectangleBinPackingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RectangleBinPackingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C54746E1A40142100D28582 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CC966071A40461100B090F0 /* GuillotineBinPack.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GuillotineBinPack.cpp; path = ../../../../../3rdParty/RectangleBinPack/GuillotineBinPack.cpp; sourceTree = "<group>"; };
+		0CC966081A40461100B090F0 /* GuillotineBinPack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GuillotineBinPack.h; path = ../../../../../3rdParty/RectangleBinPack/GuillotineBinPack.h; sourceTree = "<group>"; };
+		0CC966091A40461100B090F0 /* MaxRectsBinPack.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MaxRectsBinPack.cpp; path = ../../../../../3rdParty/RectangleBinPack/MaxRectsBinPack.cpp; sourceTree = "<group>"; };
+		0CC9660A1A40461100B090F0 /* MaxRectsBinPack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MaxRectsBinPack.h; path = ../../../../../3rdParty/RectangleBinPack/MaxRectsBinPack.h; sourceTree = "<group>"; };
+		0CC9660B1A40461100B090F0 /* Rect.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Rect.cpp; path = ../../../../../3rdParty/RectangleBinPack/Rect.cpp; sourceTree = "<group>"; };
+		0CC9660C1A40461100B090F0 /* Rect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Rect.h; path = ../../../../../3rdParty/RectangleBinPack/Rect.h; sourceTree = "<group>"; };
+		0CC9660D1A40461100B090F0 /* ShelfBinPack.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ShelfBinPack.cpp; path = ../../../../../3rdParty/RectangleBinPack/ShelfBinPack.cpp; sourceTree = "<group>"; };
+		0CC9660E1A40461100B090F0 /* ShelfBinPack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ShelfBinPack.h; path = ../../../../../3rdParty/RectangleBinPack/ShelfBinPack.h; sourceTree = "<group>"; };
+		0CC9660F1A40461100B090F0 /* SkylineBinPack.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SkylineBinPack.cpp; path = ../../../../../3rdParty/RectangleBinPack/SkylineBinPack.cpp; sourceTree = "<group>"; };
+		0CC966101A40461100B090F0 /* SkylineBinPack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SkylineBinPack.h; path = ../../../../../3rdParty/RectangleBinPack/SkylineBinPack.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0C54745A1A40142100D28582 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C5474651A40142100D28582 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C5474691A40142100D28582 /* libRectangleBinPacking.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C5474541A40142100D28582 = {
+			isa = PBXGroup;
+			children = (
+				0C54745F1A40142100D28582 /* RectangleBinPacking */,
+				0C54746C1A40142100D28582 /* RectangleBinPackingTests */,
+				0C54745E1A40142100D28582 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0C54745E1A40142100D28582 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0C54745D1A40142100D28582 /* libRectangleBinPacking.a */,
+				0C5474681A40142100D28582 /* RectangleBinPackingTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0C54745F1A40142100D28582 /* RectangleBinPacking */ = {
+			isa = PBXGroup;
+			children = (
+				0CC966071A40461100B090F0 /* GuillotineBinPack.cpp */,
+				0CC966081A40461100B090F0 /* GuillotineBinPack.h */,
+				0CC966091A40461100B090F0 /* MaxRectsBinPack.cpp */,
+				0CC9660A1A40461100B090F0 /* MaxRectsBinPack.h */,
+				0CC9660B1A40461100B090F0 /* Rect.cpp */,
+				0CC9660C1A40461100B090F0 /* Rect.h */,
+				0CC9660D1A40461100B090F0 /* ShelfBinPack.cpp */,
+				0CC9660E1A40461100B090F0 /* ShelfBinPack.h */,
+				0CC9660F1A40461100B090F0 /* SkylineBinPack.cpp */,
+				0CC966101A40461100B090F0 /* SkylineBinPack.h */,
+			);
+			path = RectangleBinPacking;
+			sourceTree = "<group>";
+		};
+		0C54746C1A40142100D28582 /* RectangleBinPackingTests */ = {
+			isa = PBXGroup;
+			children = (
+				0C54746D1A40142100D28582 /* Supporting Files */,
+			);
+			path = RectangleBinPackingTests;
+			sourceTree = "<group>";
+		};
+		0C54746D1A40142100D28582 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0C54746E1A40142100D28582 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0C54745C1A40142100D28582 /* RectangleBinPacking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C5474711A40142100D28582 /* Build configuration list for PBXNativeTarget "RectangleBinPacking" */;
+			buildPhases = (
+				0C5474591A40142100D28582 /* Sources */,
+				0C54745A1A40142100D28582 /* Frameworks */,
+				0C54745B1A40142100D28582 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RectangleBinPacking;
+			productName = RectangleBinPacking;
+			productReference = 0C54745D1A40142100D28582 /* libRectangleBinPacking.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		0C5474671A40142100D28582 /* RectangleBinPackingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C5474741A40142100D28582 /* Build configuration list for PBXNativeTarget "RectangleBinPackingTests" */;
+			buildPhases = (
+				0C5474641A40142100D28582 /* Sources */,
+				0C5474651A40142100D28582 /* Frameworks */,
+				0C5474661A40142100D28582 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0C54746B1A40142100D28582 /* PBXTargetDependency */,
+			);
+			name = RectangleBinPackingTests;
+			productName = RectangleBinPackingTests;
+			productReference = 0C5474681A40142100D28582 /* RectangleBinPackingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0C5474551A40142100D28582 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Fakhir Shaheen";
+				TargetAttributes = {
+					0C54745C1A40142100D28582 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					0C5474671A40142100D28582 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 0C5474581A40142100D28582 /* Build configuration list for PBXProject "RectangleBinPacking" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0C5474541A40142100D28582;
+			productRefGroup = 0C54745E1A40142100D28582 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0C54745C1A40142100D28582 /* RectangleBinPacking */,
+				0C5474671A40142100D28582 /* RectangleBinPackingTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0C5474661A40142100D28582 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0C5474591A40142100D28582 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CC966131A40461100B090F0 /* Rect.cpp in Sources */,
+				0CC966151A40461100B090F0 /* SkylineBinPack.cpp in Sources */,
+				0CC966111A40461100B090F0 /* GuillotineBinPack.cpp in Sources */,
+				0CC966121A40461100B090F0 /* MaxRectsBinPack.cpp in Sources */,
+				0CC966141A40461100B090F0 /* ShelfBinPack.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C5474641A40142100D28582 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0C54746B1A40142100D28582 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0C54745C1A40142100D28582 /* RectangleBinPacking */;
+			targetProxy = 0C54746A1A40142100D28582 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0C54746F1A40142100D28582 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0C5474701A40142100D28582 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0C5474721A40142100D28582 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		0C5474731A40142100D28582 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		0C5474751A40142100D28582 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RectangleBinPackingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0C5474761A40142100D28582 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RectangleBinPackingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0C5474581A40142100D28582 /* Build configuration list for PBXProject "RectangleBinPacking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C54746F1A40142100D28582 /* Debug */,
+				0C5474701A40142100D28582 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C5474711A40142100D28582 /* Build configuration list for PBXNativeTarget "RectangleBinPacking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C5474721A40142100D28582 /* Debug */,
+				0C5474731A40142100D28582 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C5474741A40142100D28582 /* Build configuration list for PBXNativeTarget "RectangleBinPackingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C5474751A40142100D28582 /* Debug */,
+				0C5474761A40142100D28582 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0C5474551A40142100D28582 /* Project object */;
+}

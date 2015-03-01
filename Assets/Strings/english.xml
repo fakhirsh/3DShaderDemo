@@ -1,0 +1,11 @@
+<strings>
+  <string id="IDS_LANGUAGE"		value="English" />
+  <string id="IDS_INITIALIZING"	value="Initializing..." />
+  <string id="IDS_RETRY"		value="Retry" hotkey="R" />
+  <string id="IDS_WAITING"		value="Waiting for Players..." />
+  <string id="IDS_LOADING"		value="Loading Game..." />
+  <string id="IDS_CAMERA_LOCATION" value="Camera location: %.2f, %.2f, %.2f" />
+  <string id="IDS_RUSSIAN"		value="ценность Мир имеет много языков" />
+  <string id="IDS_CHINESE"		value="价值世界有很多语言" />
+  <string id="IDS_URDU"			value="خوش آمدید" />
+</strings>

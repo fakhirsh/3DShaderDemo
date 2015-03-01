@@ -1,0 +1,31 @@
+
+# How to get keyframes:
+
+ob = bpy.data.objects['human']
+i = 1
+for f in ob.animation_data.action.fcurves:
+    for k in f.keyframe_points:
+        fr = k.co[0]
+        bpy.context.scene.frame_set(fr)
+        pos=ob.location
+        print(repr(i) + " -- Y: " + repr(pos.y))
+        i = i+1
+        
+        
+        
+            
+
+# How to read position from ALL frames in given range:
+
+# Reference BG image's anchor point is at lower left corner!
+# Basically 'left_hand' is a reference object placed at the upper right corner of a reference BG image whole 
+# dimensions we already know. Following line simply converts blender units to pixel units for the game:
+
+SCALE = (240*4) / bpy.data.objects['left_hand'].location.y
+
+ob = bpy.data.objects['head']    
+i = 1
+for frame in range(1,71):
+    bpy.context.scene.frame_set(frame)
+    print(repr(i) + " -- Y: " + repr(ob.location.y * SCALE))
+    i = i+1

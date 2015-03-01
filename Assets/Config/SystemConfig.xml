@@ -1,0 +1,16 @@
+<SystemConfig>
+	<WindowSystem	className = "GameGLClass"
+					windowTitle = "Zombie Treat v 0.1.0"/>
+
+	<Graphics	frameBufferWidth="960"	frameBufferHeight="640" 
+				designWidth="960"		designHeight="640"
+				assetDesignWidth="960"	assetDesignHeight="640"
+				allowFullScreen="false" 
+				runFullSpeed="false" 
+				maxFPS="60" />
+				
+	<Sound			sfxVolume="100" musicVolume="100"/>
+	
+	<Localization	language="English" />
+	
+</SystemConfig>
